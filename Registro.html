@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<audio src="Audio/SMB.mp3" autoplay="true" loop="true" controls="controls"></audio>
+<img src="Imagen/mario.gif" alt="comBan" width="35" align="right"/>
+<head>
+<title>Formulario</title>
+<meta charset="utf-8">
+<link type="text/css" href="./../css/style.css" rel="stylesheet" />
+<style type="text/css">
+h1, h2 {
+	color:#000;
+	font-family:Tahoma, Geneva, sans-serif;
+	;
+}
+</style>
+</head>
+<header><!-- Cabecera del Body -->
+  
+  <hr />
+  <center>
+    <img src="Imagen/banner.jpg" alt="Banner" width="800" border="1" />
+    <h2>Los mejores títulos de todos los tiempos</h2>
+    <hr />
+    <nav style="border-left-color:#0066FF"><!-- Barra de Navegación -->
+      <a href="ListaDeJuegos.html">Lista de Juegos</a> | <a href="Home.html"</a>Home</a></nav>
+    <hr />
+  </center>
+</header>
+<body background="Imagen/patternR.jpg">
+<div id="envoltura">
+  <div id="contenedor">
+    <div id="cabecera">
+      <h3>Formulario de registro</h3>
+      <p>Registrate para recibir todas las novedades de nuestra pagina web.</p>
+    </div>
+    <div id="cuerpo">
+      <form id="form-login" action="#" method="post" >
+        <p>
+          <label for="nombre">Nombre:</label>
+        </p>
+        <input name="nombre" type="text" id="nombre" placeholder="Pon tu nombre" autofocus="" required="required"/ >
+        </p>
+        <p>
+          <label for="apellidos">Apellidos:</label>
+        </p>
+        <input name="apellidos" type="text" id="apellidos"  placeholder="Pon tus apellidos" required="required"/>
+        </p>
+        <p>
+          <label for="correo">Correo:</label>
+        </p>
+        <input name="correo" type="text" id="correo" placeholder="Pon tu mail" required="required"
+                        pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"/>
+        </p>
+        <p>
+          <label for="pass">Password:</label>
+        </p>
+        <input name="pass" type="password" id="pass"  placeholder="Pon tu contraseña" required="required"/>
+        </p>
+        <p>
+          <label for="repass">Repetir Password:</label>
+        </p>
+        <input name="repass" type="password" id="repass"  placeholder="Repite contraseña" required="required"/>
+        </p>
+        <p>
+          <label for="fnac">Fecha de Nacimiento:</label>
+        </p>
+        <input name="fnac" type="date" id="fnac" placeholder="Fecha de Nacimiento" required="required"/>
+        </p>
+        <p id="bot">
+          <input name="submit" type="submit" id="boton" value="Registrar" class="boton"/>
+        </p>
+      </form>
+    </div>
+  </div>
+  <!-- fin contenedor --> 
+  
+</div>
+</body>
+<br />
+
+<footer>
+<hr/>
+  <h5>Desarrolado por Jordán L. Ibáñez; j-ibanez@outlook.com - Tel: +56 9 44277238 / Juan Padilla; xgrunger@gmail.com - Tel: +56 9 85672361 . Todos los derechos reservados &reg;</h5>
+</footer>
+</html>
